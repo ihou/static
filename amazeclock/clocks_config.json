@@ -1,0 +1,38 @@
+[
+  {
+    "id": "20240127",
+    "name": "",
+    "desc": "",
+    "version": "1.0",
+    "created_at": "",
+    "enable_seconds": true,
+    "background": {
+      "image": "",
+      "image_md5": ""
+    },
+    "face": {
+      "image": "/amazeclock/clocks/20240127/face.png",
+      "image_md5": "d05d7e50d5283254caa94c80e602255f"
+    },
+    "hour_hand": {
+      "image": "/amazeclock/clocks/20240127/hour_hand.png",
+      "image_md5": "11b50efbd7dea78b2b883f1de7480df1"
+    },
+    "minute_hand": {
+      "image": "/amazeclock/clocks/20240127/minute_hand.png",
+      "image_md5": "f74c991782d93fccc3a23a0307a91368"
+    },
+    "second_hand": {
+      "image": "/amazeclock/clocks/20240127/second_hand.png",
+      "image_md5": "e81251f4e50c7fbf670db302e3941bb5"
+    }, 
+    "spot_upper": {
+      "image": "/amazeclock/clocks/20240127/spot_upper.png",
+      "image_md5": "ad3de30c8261b0118c49c591affc3db1"
+    },
+    "spot_lower": {
+      "image": "/amazeclock/clocks/20240127/spot_lower.png",
+      "image_md5": "f4f8bc53e330d2c3477a2db65ebc08c8"
+    }
+  }
+]
