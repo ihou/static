@@ -52,11 +52,11 @@
     },
     "hour_hand": {
       "image": "/amazeclock/clocks/20240128/hour_hand.png",
-      "image_md5": "0f15175f0d7a7ae65dc208c6ca765f79"
+      "image_md5": "3c086460738aa438e04193bb97d3bf6d"
     },
     "minute_hand": {
       "image": "/amazeclock/clocks/20240128/minute_hand.png",
-      "image_md5": "8fd27262a65bf37a1a699e5fee7d230d"
+      "image_md5": "77773b7b0816f7fb81151be3a92b7a70"
     },
     "second_hand": {
       "image": "/amazeclock/clocks/20240128/second_hand.png",
@@ -64,7 +64,7 @@
     }, 
     "spot_upper": {
       "image": "/amazeclock/clocks/20240128/spot_upper.png",
-      "image_md5": "24d4ea4ee923836350d321a9b68359e1"
+      "image_md5": "35a2d6ca2da732fd0583dd189bb201bd"
     },
     "spot_lower": {
       "image": "",
