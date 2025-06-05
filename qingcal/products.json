@@ -4,7 +4,7 @@
     "title": "年度会员",
     "description": "轻历年度会员，享受所有VIP功能",
     "price": "¥68.00",
-    "rawPrice": 68.00,
+    "rawPrice": 68,
     "currencyCode": "CNY",
     "currencySymbol": "¥"
   },
@@ -13,7 +13,7 @@
     "title": "季度会员",
     "description": "轻历季度会员，享受所有VIP功能",
     "price": "¥18.00",
-    "rawPrice": 18.00,
+    "rawPrice": 18,
     "currencyCode": "CNY",
     "currencySymbol": "¥"
   },
@@ -22,7 +22,7 @@
     "title": "月度会员",
     "description": "轻历月度会员，享受所有VIP功能",
     "price": "¥6.00",
-    "rawPrice": 6.00,
+    "rawPrice": 6,
     "currencyCode": "CNY",
     "currencySymbol": "¥"
   },
@@ -31,7 +31,7 @@
     "title": "终身会员",
     "description": "轻历终身会员，一次购买永久使用",
     "price": "¥198.00",
-    "rawPrice": 198.00,
+    "rawPrice": 198,
     "currencyCode": "CNY",
     "currencySymbol": "¥"
   }
