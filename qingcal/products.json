@@ -3,8 +3,8 @@
     "id": "com.nanshanbei.gtdcalendar.earlybird.vip1year",
     "title": "年度会员",
     "description": "轻历年度会员，享受所有VIP功能",
-    "price": "¥68.00",
-    "rawPrice": 68,
+    "price": "¥68",
+    "rawPrice": 68.00,
     "currencyCode": "CNY",
     "currencySymbol": "¥"
   },
@@ -12,8 +12,8 @@
     "id": "com.nanshanbei.gtdcalendar.earlybird.vip3month",
     "title": "季度会员",
     "description": "轻历季度会员，享受所有VIP功能",
-    "price": "¥18.00",
-    "rawPrice": 18,
+    "price": "¥18",
+    "rawPrice": 18.00,
     "currencyCode": "CNY",
     "currencySymbol": "¥"
   },
@@ -21,8 +21,8 @@
     "id": "com.nanshanbei.gtdcalendar.earlybird.vip1month",
     "title": "月度会员",
     "description": "轻历月度会员，享受所有VIP功能",
-    "price": "¥6.00",
-    "rawPrice": 6,
+    "price": "¥6",
+    "rawPrice": 6.00,
     "currencyCode": "CNY",
     "currencySymbol": "¥"
   },
@@ -30,8 +30,8 @@
     "id": "Lifetime_Purchase",
     "title": "终身会员",
     "description": "轻历终身会员，一次购买永久使用",
-    "price": "¥198.00",
-    "rawPrice": 198,
+    "price": "¥198",
+    "rawPrice": 198.00,
     "currencyCode": "CNY",
     "currencySymbol": "¥"
   }
