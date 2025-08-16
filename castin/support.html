@@ -3,313 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Castin - Technical Support</title>
+    <title>Castin - Support</title>
     <style>
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f8f9fa;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f5f5f5;
         }
         .container {
-            background: white;
+            text-align: center;
             padding: 40px;
+            background: white;
             border-radius: 12px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
         h1 {
-            color: #2c3e50;
-            border-bottom: 3px solid #e74c3c;
-            padding-bottom: 10px;
-            margin-bottom: 30px;
+            color: #333;
+            margin-bottom: 20px;
         }
-        h2 {
-            color: #34495e;
-            margin-top: 30px;
-            margin-bottom: 15px;
+        .email {
+            font-size: 18px;
+            color: #007aff;
+            text-decoration: none;
         }
-        h3 {
-            color: #5d6d7e;
-            margin-top: 20px;
-            margin-bottom: 10px;
-        }
-        .last-updated {
-            color: #7f8c8d;
-            font-style: italic;
-            margin-bottom: 30px;
-        }
-        .support-box {
-            background-color: #e8f4f8;
-            padding: 20px;
-            border-radius: 8px;
-            border-left: 4px solid #3498db;
-            margin: 20px 0;
-        }
-        .solution-box {
-            background-color: #f0f8f0;
-            padding: 15px;
-            border-radius: 8px;
-            border-left: 4px solid #27ae60;
-            margin: 15px 0;
-        }
-        .warning-box {
-            background-color: #fff3cd;
-            padding: 15px;
-            border-radius: 8px;
-            border-left: 4px solid #ffc107;
-            margin: 15px 0;
-        }
-        .error-box {
-            background-color: #f8d7da;
-            padding: 15px;
-            border-radius: 8px;
-            border-left: 4px solid #dc3545;
-            margin: 15px 0;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        .code-block {
-            background-color: #f8f9fa;
-            border: 1px solid #e9ecef;
-            border-radius: 4px;
-            padding: 15px;
-            margin: 10px 0;
-            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
-            font-size: 14px;
-            overflow-x: auto;
-        }
-        .footer {
-            margin-top: 40px;
-            padding-top: 20px;
-            border-top: 1px solid #eee;
-            text-align: center;
-            color: #7f8c8d;
-        }
-        .contact-info {
-            background-color: #f8f9fa;
-            padding: 20px;
-            border-radius: 8px;
-            margin: 20px 0;
-        }
-        @media (max-width: 600px) {
-            .container {
-                padding: 20px;
-            }
+        .email:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Castin Technical Support</h1>
-        <p class="last-updated">Last Updated: August 16, 2025</p>
-        
-        <div class="support-box">
-            <strong>Welcome to Castin Technical Support!</strong> This page provides comprehensive troubleshooting guides, FAQ, and technical assistance for your DLNA media casting receiver.
-        </div>
-
-        <h2>🚀 Getting Started</h2>
-        
-        <h3>System Requirements</h3>
-        <ul>
-            <li>macOS 10.15 (Catalina) or later</li>
-            <li>Intel or Apple Silicon processor</li>
-            <li>At least 100MB free disk space</li>
-            <li>Network connection for DLNA functionality</li>
-        </ul>
-        
-        <h3>First-Time Setup</h3>
-        <ol>
-            <li>Download and install Castin from the official source</li>
-            <li>Launch the application</li>
-            <li>Allow necessary network permissions when prompted</li>
-            <li>Configure your device name (optional)</li>
-            <li>The DLNA service starts automatically</li>
-        </ol>
-
-        <h2>🔧 Common Issues & Solutions</h2>
-        
-        <h3>Service Won't Start</h3>
-        <div class="solution-box">
-            <strong>Solution:</strong>
-            <ul>
-                <li>Check if another application is using port 8199</li>
-                <li>Ensure macOS firewall allows Castin connections</li>
-                <li>Restart the application</li>
-                <li>Check your network connection</li>
-            </ul>
-        </div>
-        
-        <h3>Devices Cannot Discover Castin</h3>
-        <div class="solution-box">
-            <strong>Solution:</strong>
-            <ul>
-                <li>Ensure all devices are on the same local network</li>
-                <li>Check your router's multicast settings</li>
-                <li>Verify DLNA/UPnP is enabled on your casting device</li>
-                <li>Restart your router if necessary</li>
-            </ul>
-        </div>
-        
-        <h3>Streaming Issues</h3>
-        <div class="error-box">
-            <strong>Common Problems:</strong>
-            <ul>
-                <li><strong>Buffering:</strong> Check your network bandwidth and stability</li>
-                <li><strong>Connection Drops:</strong> Verify network stability and device proximity</li>
-                <li><strong>No Audio/Video:</strong> Ensure media format compatibility</li>
-                <li><strong>High Latency:</strong> Check network congestion and server load</li>
-            </ul>
-        </div>
-
-        <h3>Download Problems</h3>
-        <div class="warning-box">
-            <strong>Troubleshooting Steps:</strong>
-            <ul>
-                <li>Verify M3U8 URL is accessible and valid</li>
-                <li>Check available disk space in your Documents folder</li>
-                <li>Ensure internet connection is stable</li>
-                <li>Try downloading a different M3U8 stream for testing</li>
-            </ul>
-        </div>
-
-        <h2>📋 Frequently Asked Questions</h2>
-        
-        <h3>Q: What is Castin?</h3>
-        <p>A: Castin is a macOS application that acts as a DLNA media receiver, allowing you to cast media content from your mobile devices or computers to your Mac.</p>
-        
-        <h3>Q: How do I cast content to Castin?</h3>
-        <p>A: Use any DLNA/UPnP compatible casting app on your device, search for "Castin" or your custom device name, and select it as the casting target.</p>
-        
-        <h3>Q: What media formats are supported?</h3>
-        <p>A: Castin supports most common media formats through FFmpeg integration, including MP4, MKV, AVI, MOV, and various streaming formats.</p>
-        
-        <h3>Q: Where are downloaded files stored?</h3>
-        <p>A: Downloaded files are saved in: <code>~/Documents/CastinDownloads/</code></p>
-        
-        <h3>Q: Can I change the default port?</h3>
-        <p>A: Currently, Castin uses port 8199 by default. Port customization may be added in future versions.</p>
-        
-        <h3>Q: Is my data private?</h3>
-        <p>A: Yes! Castin processes all data locally on your device. No personal information or media content is transmitted to external servers.</p>
-
-        <h2>🔍 Technical Details</h2>
-        
-        <h3>Network Requirements</h3>
-        <ul>
-            <li><strong>Protocol:</strong> DLNA/UPnP over HTTP</li>
-            <li><strong>Port:</strong> 8199 (default)</li>
-            <li><strong>Discovery:</strong> SSDP (Simple Service Discovery Protocol)</li>
-            <li><strong>Transport:</strong> TCP for control, UDP for discovery</li>
-        </ul>
-        
-        <h3>FFmpeg Integration</h3>
-        <p>Castin uses FFmpeg for media processing. The application includes a properly signed FFmpeg framework that handles:</p>
-        <ul>
-            <li>Media format detection and conversion</li>
-            <li>M3U8 stream downloading</li>
-            <li>Video and audio codec support</li>
-            <li>Stream analysis and processing</li>
-        </ul>
-        
-        <h3>File Locations</h3>
-        <div class="code-block">
-Application Support: ~/Library/Application Support/Castin/
-Preferences: ~/Library/Preferences/com.yourcompany.Castin.plist
-Downloads: ~/Documents/CastinDownloads/
-Logs: ~/Library/Logs/Castin/
-        </div>
-
-        <h2>🛠️ Advanced Troubleshooting</h2>
-        
-        <h3>Checking Network Status</h3>
-        <div class="code-block">
-# Check if port 8199 is listening
-lsof -i :8199
-
-# Test DLNA discovery (requires tools like upnp-tools)
-upnp-discover
-        </div>
-        
-        <h3>Debug Mode</h3>
-        <p>To enable debug logging:</p>
-        <ol>
-            <li>Open Terminal</li>
-            <li>Launch Castin with debug flag: <code>open -a Castin --args -debug</code></li>
-            <li>Check Console.app for Castin logs</li>
-        </ol>
-        
-        <h3>Manual Service Restart</h3>
-        <div class="solution-box">
-            If the service becomes unresponsive:
-            <ol>
-                <li>Quit Castin completely</li>
-                <li>Wait 10 seconds</li>
-                <li>Relaunch the application</li>
-                <li>The service should restart automatically</li>
-            </ol>
-        </div>
-
-        <h2>📞 Contact Support</h2>
-        
-        <div class="contact-info">
-            <h3>Get Help</h3>
-            <p>If you're experiencing issues not covered in this guide, please contact our technical support team:</p>
-            
-            <p><strong>Email:</strong> <a href="mailto:i.hou@163.com">i.hou@163.com</a></p>
-            
-            <h4>When contacting support, please include:</h4>
-            <ul>
-                <li>macOS version (from Apple menu > About This Mac)</li>
-                <li>Castin version (from application menu)</li>
-                <li>Detailed description of the issue</li>
-                <li>Steps to reproduce the problem</li>
-                <li>Any error messages you've encountered</li>
-                <li>Console logs if applicable</li>
-            </ul>
-        </div>
-
-        <h2>📚 Additional Resources</h2>
-        
-        <h3>Documentation</h3>
-        <ul>
-            <li><a href="user_agreement.html">User Agreement</a></li>
-            <li><a href="privacy_policy.html">Privacy Policy</a></li>
-        </ul>
-        
-        <h3>External Resources</h3>
-        <ul>
-            <li><a href="https://ffmpeg.org/" target="_blank">FFmpeg Official Documentation</a></li>
-            <li><a href="https://www.dlna.org/" target="_blank">DLNA Organization</a></li>
-            <li><a href="https://upnp.org/" target="_blank">UPnP Forum</a></li>
-        </ul>
-
-        <h2>🔄 Updates & Maintenance</h2>
-        
-        <h3>Automatic Updates</h3>
-        <p>Castin checks for updates automatically. You can also check manually:</p>
-        <ol>
-            <li>Open Castin</li>
-            <li>Go to Application menu</li>
-            <li>Select "Check for Updates"</li>
-        </ol>
-        
-        <h3>Update History</h3>
-        <ul>
-            <li><strong>Version 1.0:</strong> Initial release with DLNA streaming and M3U8 download capabilities</li>
-            <li><strong>Version 1.1:</strong> Enhanced stream analysis and improved UI</li>
-            <li>Future versions will include additional features and improvements</li>
-        </ul>
-
-        <div class="footer">
-            <p>&copy; 2025 Castin. Technical Support documentation.</p>
-        </div>
+        <h1>Castin Support</h1>
+        <p>For technical support, please contact us at:</p>
+        <p><a href="mailto:i.hou@163.com" class="email">i.hou@163.com</a></p>
     </div>
 </body>
 </html>
